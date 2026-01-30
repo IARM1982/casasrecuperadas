@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contador de casas tomadas recuperadas por el Gobierno de la Ciudad de Buenos Aires">
+    <title>Casas Recuperadas | Gobierno de la Ciudad de Buenos Aires</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-ba">BA</span>
+                <span class="logo-text">Buenos Aires</span>
+            </div>
+            <nav class="nav">
+                <a href="#contador">Contador</a>
+                <a href="#casos">Casos Emblemáticos</a>
+                <a href="#noticias">Noticias</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Counter -->
+    <section id="contador" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">TOLERANCIA CERO CON LAS USURPACIONES</div>
+            <h1 class="hero-title">Casas Tomadas <span class="highlight">Recuperadas</span></h1>
+            <p class="hero-subtitle">Defendiendo la propiedad privada y haciendo cumplir la ley</p>
+            
+            <div class="counter-container">
+                <div class="counter-box">
+                    <div class="counter-number" id="mainCounter">0</div>
+                    <div class="counter-label">Propiedades Recuperadas</div>
+                    <div class="counter-period">Período 2024-2025</div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🏠</div>
+                    <div class="stat-number">551</div>
+                    <div class="stat-label">Inmuebles liberados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📍</div>
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Barrios principales</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">Meses de gestión</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- Casos Emblemáticos -->
+    <section id="casos" class="casos-section">
+        <div class="container">
+            <h2 class="section-title">Casos Emblemáticos</h2>
+            <p class="section-subtitle">Operativos destacados de recuperación de propiedades</p>
+            
+            <div class="casos-grid">
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <span class="caso-barrio">Belgrano</span>
+                    </div>
+                    <h3 class="caso-title">Elefante Blanco</h3>
+                    <p class="caso-desc">Edificio emblemático recuperado tras años de ocupación ilegal.</p>
+                </div>
+                
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <span class="caso-barrio">Casco Histórico</span>
+                    </div>
+                    <h3 class="caso-title">Casa Blaquier</h3>
+                    <p class="caso-desc">Propiedad histórica restituida a sus legítimos dueños.</p>
+                </div>
+                
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <span class="caso-barrio">Nueva Pompeya</span>
+                    </div>
+                    <h3 class="caso-title">Galería del Terror</h3>
+                    <p class="caso-desc">Inmueble con riesgo estructural utilizado para actividades ilegales.</p>
+                </div>
+                
+                <div class="caso-card">
+                    <div class="caso-header">
+                        <span class="caso-barrio">Palermo</span>
+                    </div>
+                    <h3 class="caso-title">Mercado de Bonpland</h3>
+                    <p class="caso-desc">Recuperación parcial del histórico mercado porteño.</p>
+                </div>
+            </div>
+
+            <div class="barrios-info">
+                <h3>Barrios con mayor cantidad de operativos</h3>
+                <div class="barrios-list">
+                    <span class="barrio-tag">Balvanera</span>
+                    <span class="barrio-tag">La Boca</span>
+                    <span class="barrio-tag">Almagro</span>
+                    <span class="barrio-tag">Barracas</span>
+                    <span class="barrio-tag">Constitución</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias" class="noticias-section">
+        <div class="container">
+            <h2 class="section-title">En los Medios</h2>
+            <p class="section-subtitle">Cobertura periodística sobre la recuperación de propiedades</p>
+            
+            <div class="noticias-grid">
+                <a href="https://www.buenosaires.gob.ar/noticias/en-dos-anos-la-ciudad-recupero-500-inmuebles-usurpados" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://www.buenosaires.gob.ar/sites/all/themes/starter_gcba/img/logo/logo-gcba.svg" alt="GCBA" class="source-logo">
+                        <span>Buenos Aires Ciudad</span>
+                    </div>
+                    <h3 class="noticia-title">En dos años, la Ciudad recuperó 500 inmuebles usurpados</h3>
+                    <p class="noticia-excerpt">El Gobierno porteño intensificó los operativos de recuperación de propiedades ocupadas ilegalmente.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+
+                <a href="https://www.infobae.com/sociedad/2025/10/15/en-la-ciudad-de-buenos-aires-ya-recuperaron-mas-de-460-propiedades-usurpadas/" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Infobae_2023.svg/200px-Infobae_2023.svg.png" alt="Infobae" class="source-logo">
+                        <span>Infobae</span>
+                    </div>
+                    <h3 class="noticia-title">En la Ciudad de Buenos Aires ya recuperaron más de 460 propiedades usurpadas</h3>
+                    <p class="noticia-excerpt">El gobierno porteño avanza con su política de tolerancia cero contra las ocupaciones.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+
+                <a href="https://www.cronista.com/economia-politica/jorge-macri-recupero-500-casas-tomadas-mapa/" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/El-cronista-comercial.svg/200px-El-cronista-comercial.svg.png" alt="El Cronista" class="source-logo">
+                        <span>El Cronista</span>
+                    </div>
+                    <h3 class="noticia-title">Jorge Macri recuperó 500 casas tomadas: el mapa de los operativos</h3>
+                    <p class="noticia-excerpt">El detalle barrio por barrio de las propiedades liberadas en la gestión actual.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+
+                <a href="https://www.mdzol.com/politica/2025/12/05/la-ciudad-de-buenos-aires-recupero-551-propiedades-usurpadas/" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/MDZ_logo.png" alt="MDZ" class="source-logo">
+                        <span>MDZ Online</span>
+                    </div>
+                    <h3 class="noticia-title">La Ciudad de Buenos Aires recuperó 551 propiedades usurpadas</h3>
+                    <p class="noticia-excerpt">En dos años de gestión, el gobierno porteño logró liberar más de 500 inmuebles.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+
+                <a href="https://www.c5n.com/politica/la-ciudad-buenos-aires-recupero-500-inmuebles-usurpados-dos-anos-n134567" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/C5n.svg/200px-C5n.svg.png" alt="C5N" class="source-logo">
+                        <span>C5N</span>
+                    </div>
+                    <h3 class="noticia-title">La Ciudad de Buenos Aires recuperó 500 inmuebles usurpados</h3>
+                    <p class="noticia-excerpt">El gobierno de Jorge Macri presentó el balance de su política antiocupaciones.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+
+                <a href="https://www.letrap.com.ar/politica/casas-tomadas-recuperadas-ciudad-buenos-aires-2025" target="_blank" rel="noopener" class="noticia-card">
+                    <div class="noticia-source">
+                        <img src="https://www.letrap.com.ar/images/letrap-logo.png" alt="Letra P" class="source-logo">
+                        <span>Letra P</span>
+                    </div>
+                    <h3 class="noticia-title">Casas tomadas: el balance de recuperaciones en CABA</h3>
+                    <p class="noticia-excerpt">Un análisis detallado de la política de recuperación de inmuebles usurpados.</p>
+                    <span class="noticia-cta">Leer más →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-ba">BA</span>
+                <span class="logo-text">Buenos Aires Ciudad</span>
+            </div>
+            <p class="footer-text">Gobierno de la Ciudad Autónoma de Buenos Aires</p>
+            <p class="footer-disclaimer">Información actualizada a diciembre 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
